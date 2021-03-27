@@ -1,7 +1,7 @@
 from glob import glob
 from setuptools import setup
 
-package_name = 'pigpio'
+package_name = 'servo'
 
 setup(
     name=package_name,
@@ -11,7 +11,6 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ## 後で作成する 'launch/*.launch.py'用に追記
         ('share/' + package_name, glob('launch/*.launch.py'))
     ],
     install_requires=['setuptools'],
@@ -23,9 +22,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hello_world = pigpio.hello_world:main',
-            'servo = pigpio.output_servo:main',
-            'controller = pigpio.controller:main',
+            'servo = servo.output_servo:main',
+            'controller = servo.controller:main',
         ],
     },
 )

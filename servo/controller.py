@@ -14,7 +14,7 @@ class MyController(Node):
         self.pub_servo_right = self.create_publisher(Int8, '/output/servo/right', 10)
         self.tmr = self.create_timer(1.0, self.move_servo)
 
-    # テスト用（センサーなし）
+    # for test(no sensor)
     def move_servo(self):
         self.pub_servo_left.publish(Int8(data=random.randint(ANGLE_MIN, ANGLE_MAX)))
         self.pub_servo_right.publish(Int8(data=random.randint(ANGLE_MIN, ANGLE_MAX)))
