@@ -1,0 +1,22 @@
+[0.288s] Invoking command in '/home/chaos/tf_ws/servo/servo_github': PYTHONPATH=/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/servo build --build-base /home/chaos/tf_ws/servo/servo_github/build/servo/build install --prefix /home/chaos/tf_ws/servo/servo_github/install/servo --record /home/chaos/tf_ws/servo/servo_github/build/servo/install.log --single-version-externally-managed
+[0.513s] running egg_info
+[0.514s] writing build/servo/servo.egg-info/PKG-INFO
+[0.514s] writing dependency_links to build/servo/servo.egg-info/dependency_links.txt
+[0.515s] writing entry points to build/servo/servo.egg-info/entry_points.txt
+[0.515s] writing requirements to build/servo/servo.egg-info/requires.txt
+[0.516s] writing top-level names to build/servo/servo.egg-info/top_level.txt
+[0.567s] reading manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+[0.568s] writing manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+[0.568s] running build
+[0.568s] running build_py
+[0.569s] running install
+[0.571s] running install_lib
+[0.574s] running install_data
+[0.574s] running install_egg_info
+[0.577s] removing '/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo-0.0.0-py3.8.egg-info' (and everything under it)
+[0.577s] Copying build/servo/servo.egg-info to /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo-0.0.0-py3.8.egg-info
+[0.578s] running install_scripts
+[0.610s] Installing controller script to /home/chaos/tf_ws/servo/servo_github/install/servo/lib/servo
+[0.611s] Installing servo script to /home/chaos/tf_ws/servo/servo_github/install/servo/lib/servo
+[0.611s] writing list of installed files to '/home/chaos/tf_ws/servo/servo_github/build/servo/install.log'
+[0.632s] Invoked command in '/home/chaos/tf_ws/servo/servo_github' returned '0': PYTHONPATH=/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/servo build --build-base /home/chaos/tf_ws/servo/servo_github/build/servo/build install --prefix /home/chaos/tf_ws/servo/servo_github/install/servo --record /home/chaos/tf_ws/servo/servo_github/build/servo/install.log --single-version-externally-managed

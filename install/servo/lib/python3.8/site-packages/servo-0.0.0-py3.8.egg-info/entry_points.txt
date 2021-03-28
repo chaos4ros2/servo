@@ -1,0 +1,4 @@
+[console_scripts]
+controller = servo.controller:main
+servo = servo.output_servo:main
+

@@ -1,0 +1,38 @@
+running egg_info
+creating build/servo/servo.egg-info
+writing build/servo/servo.egg-info/PKG-INFO
+writing dependency_links to build/servo/servo.egg-info/dependency_links.txt
+writing entry points to build/servo/servo.egg-info/entry_points.txt
+writing requirements to build/servo/servo.egg-info/requires.txt
+writing top-level names to build/servo/servo.egg-info/top_level.txt
+writing manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+reading manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+writing manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chaos/tf_ws/servo/servo_github/build/servo/build
+creating /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib
+creating /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+copying servo/hello_world.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+copying servo/controller.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+copying servo/input_human_sensor.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+copying servo/output_servo.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+copying servo/__init__.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+running install
+running install_lib
+creating /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/hello_world.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/controller.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/input_human_sensor.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/output_servo.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/__init__.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/hello_world.py to hello_world.cpython-38.pyc
+byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/controller.py to controller.cpython-38.pyc
+byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/input_human_sensor.py to input_human_sensor.cpython-38.pyc
+byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/output_servo.py to output_servo.cpython-38.pyc
+byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/chaos/tf_ws/servo/servo_github/install/servo/share/ament_index
+creating /home/chaos/tf_ws/servo/servo_github/install/servo/share/ament_index/resource_index
+creating /home/chaos/tf_ws/servo/servo_github/install/servo/share/ament_index/resource_index/packages
+error: can't copy 'resource/servo': doesn't exist or not a regular file

@@ -1,0 +1,40 @@
+[0.716s] Invoking command in '/home/chaos/tf_ws/servo/servo_github': PYTHONPATH=/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/servo build --build-base /home/chaos/tf_ws/servo/servo_github/build/servo/build install --prefix /home/chaos/tf_ws/servo/servo_github/install/servo --record /home/chaos/tf_ws/servo/servo_github/build/servo/install.log --single-version-externally-managed
+[1.101s] running egg_info
+[1.102s] creating build/servo/servo.egg-info
+[1.102s] writing build/servo/servo.egg-info/PKG-INFO
+[1.103s] writing dependency_links to build/servo/servo.egg-info/dependency_links.txt
+[1.103s] writing entry points to build/servo/servo.egg-info/entry_points.txt
+[1.104s] writing requirements to build/servo/servo.egg-info/requires.txt
+[1.104s] writing top-level names to build/servo/servo.egg-info/top_level.txt
+[1.242s] writing manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+[1.382s] reading manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+[1.382s] writing manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+[1.394s] running build
+[1.395s] running build_py
+[1.395s] creating /home/chaos/tf_ws/servo/servo_github/build/servo/build
+[1.395s] creating /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib
+[1.395s] creating /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+[1.395s] copying servo/hello_world.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+[1.395s] copying servo/controller.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+[1.398s] copying servo/input_human_sensor.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+[1.399s] copying servo/output_servo.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+[1.399s] copying servo/__init__.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+[1.399s] running install
+[1.403s] running install_lib
+[1.408s] creating /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+[1.408s] copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/hello_world.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+[1.408s] copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/controller.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+[1.408s] copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/input_human_sensor.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+[1.409s] copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/output_servo.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+[1.409s] copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/__init__.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+[1.409s] byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/hello_world.py to hello_world.cpython-38.pyc
+[1.413s] byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/controller.py to controller.cpython-38.pyc
+[1.415s] byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/input_human_sensor.py to input_human_sensor.cpython-38.pyc
+[1.416s] byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/output_servo.py to output_servo.cpython-38.pyc
+[1.417s] byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/__init__.py to __init__.cpython-38.pyc
+[1.417s] running install_data
+[1.419s] creating /home/chaos/tf_ws/servo/servo_github/install/servo/share/ament_index
+[1.420s] creating /home/chaos/tf_ws/servo/servo_github/install/servo/share/ament_index/resource_index
+[1.420s] creating /home/chaos/tf_ws/servo/servo_github/install/servo/share/ament_index/resource_index/packages
+[1.420s] error: can't copy 'resource/servo': doesn't exist or not a regular file
+[1.440s] Invoked command in '/home/chaos/tf_ws/servo/servo_github' returned '1': PYTHONPATH=/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/servo build --build-base /home/chaos/tf_ws/servo/servo_github/build/servo/build install --prefix /home/chaos/tf_ws/servo/servo_github/install/servo --record /home/chaos/tf_ws/servo/servo_github/build/servo/install.log --single-version-externally-managed

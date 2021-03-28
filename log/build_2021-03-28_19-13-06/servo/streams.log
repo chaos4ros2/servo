@@ -1,0 +1,25 @@
+[0.305s] Invoking command in '/home/chaos/tf_ws/servo/servo_github': PYTHONPATH=/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/servo build --build-base /home/chaos/tf_ws/servo/servo_github/build/servo/build install --prefix /home/chaos/tf_ws/servo/servo_github/install/servo --record /home/chaos/tf_ws/servo/servo_github/build/servo/install.log --single-version-externally-managed
+[0.557s] running egg_info
+[0.558s] writing build/servo/servo.egg-info/PKG-INFO
+[0.559s] writing dependency_links to build/servo/servo.egg-info/dependency_links.txt
+[0.560s] writing entry points to build/servo/servo.egg-info/entry_points.txt
+[0.560s] writing requirements to build/servo/servo.egg-info/requires.txt
+[0.560s] writing top-level names to build/servo/servo.egg-info/top_level.txt
+[0.602s] reading manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+[0.603s] writing manifest file 'build/servo/servo.egg-info/SOURCES.txt'
+[0.603s] running build
+[0.603s] running build_py
+[0.604s] copying servo/controller.py -> /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo
+[0.604s] running install
+[0.605s] running install_lib
+[0.606s] copying /home/chaos/tf_ws/servo/servo_github/build/servo/build/lib/servo/controller.py -> /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo
+[0.607s] byte-compiling /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo/controller.py to controller.cpython-38.pyc
+[0.609s] running install_data
+[0.610s] running install_egg_info
+[0.612s] removing '/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo-0.0.0-py3.8.egg-info' (and everything under it)
+[0.612s] Copying build/servo/servo.egg-info to /home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages/servo-0.0.0-py3.8.egg-info
+[0.613s] running install_scripts
+[0.635s] Installing controller script to /home/chaos/tf_ws/servo/servo_github/install/servo/lib/servo
+[0.636s] Installing servo script to /home/chaos/tf_ws/servo/servo_github/install/servo/lib/servo
+[0.636s] writing list of installed files to '/home/chaos/tf_ws/servo/servo_github/build/servo/install.log'
+[0.669s] Invoked command in '/home/chaos/tf_ws/servo/servo_github' returned '0': PYTHONPATH=/home/chaos/tf_ws/servo/servo_github/install/servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/servo build --build-base /home/chaos/tf_ws/servo/servo_github/build/servo/build install --prefix /home/chaos/tf_ws/servo/servo_github/install/servo --record /home/chaos/tf_ws/servo/servo_github/build/servo/install.log --single-version-externally-managed
