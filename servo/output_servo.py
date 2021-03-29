@@ -11,6 +11,7 @@ import tf2_ros
 import geometry_msgs.msg
 from rclpy.qos import QoSProfile
 from math import sin, cos, pi
+from geometry_msgs.msg import Quaternion
 
 ANGLE_MIN = -70
 ANGLE_MAX = 70
@@ -34,7 +35,7 @@ class Servo(Node):
         self.sub_topic_name = '/output/servo/' + servo_name
 
         self.qos_profile = QoSProfile(depth=10)
-        self.sub_servo = self.create_subscription(Int8, self.sub_topic_name, self.servo_callback, 10)
+        self.sub_servo = self.create_subscription(Float32, self.sub_topic_name, self.servo_callback, 10)
 
     def init_pca9685(self):
         self.pwm = Adafruit_PCA9685.PCA9685(address=0x40)
@@ -53,17 +54,21 @@ class Servo(Node):
         t.header.stamp = now.to_msg()
         t.header.frame_id = "base_link"
         t.child_frame_id = self.joint_name
-        # set position(0, 0, 0)
-        t.transform.translation.x = 0.0
-        t.transform.translation.y = 0.0
-        t.transform.translation.z = 0.0
         # set posture(servo_msg is angle(Int8))
         # left is (0, 0, angle)
         # right is (0, angle, 0)
         angle = to_radians(servo_msg)
-        if self.joint_name == 'joint0':    
+        if self.joint_name == 'joint0':
+            # set joint0 position(0.05 0 0.088)
+            t.transform.translation.x = 0.05
+            t.transform.translation.y = 0.0
+            t.transform.translation.z = 0.088    
             t.transform.rotation = euler_to_quaternion(0, 0, angle) # roll,pitch,yaw
         else:
+            # set joint1 position(0 0 0.086)
+            t.transform.translation.x = 0.00
+            t.transform.translation.y = 0.0
+            t.transform.translation.z = 0.086   
             t.transform.rotation = euler_to_quaternion(0, angle, 0) # roll,pitch,yaw
         self.br.sendTransform(t)
         
@@ -106,7 +111,7 @@ def euler_to_quaternion(roll, pitch, yaw):
     return Quaternion(x=qx, y=qy, z=qz, w=qw)
 
 def to_radians(deg_angle):
-    return deg_angle * pi / 180.0
+    return deg_angle.data * pi / 180.0
 
 if __name__ == '__main__':
     main()
