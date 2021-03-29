@@ -11,7 +11,9 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name, glob('launch/*.launch.py'))
+        ('share/' + package_name, glob('launch/*.launch.py')),
+        # Include model and simulation files
+        ('share/' + package_name, glob('urdf/*'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
