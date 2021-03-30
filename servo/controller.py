@@ -16,8 +16,8 @@ class MyController(Node):
 
     # for test(no sensor)
     def move_servo(self):
-        self.pub_servo_left.publish(Float32(data=random.randint(ANGLE_MIN, ANGLE_MAX)))
-        self.pub_servo_right.publish(Float32(data=random.randint(ANGLE_MIN, ANGLE_MAX)))
+        self.pub_servo_left.publish(Float32(data=float(random.randrange(ANGLE_MIN, ANGLE_MAX))))
+        self.pub_servo_right.publish(Float32(data=float(random.randrange(ANGLE_MIN, ANGLE_MAX))))
 
 def main(args=None):
     rclpy.init(args=args)
